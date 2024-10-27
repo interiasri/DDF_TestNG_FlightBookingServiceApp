@@ -1,0 +1,16 @@
+<suite name="Flight Reservation App TestCases">
+	<test name="Search and Select Airline TestCase">
+	<parameter name="UserName" value="interiautest@gmail.com"></parameter>
+	<parameter name="Password" value="Dsop@123"></parameter>
+	<parameter name="date" value="06/25/2025"></parameter>
+	<parameter name="from" value="Hyderabad"></parameter>
+	<parameter name="to" value="Kolkatha"></parameter>
+	<parameter name="airlineName" value="Soft Airlines"></parameter>
+	<parameter name="PassengerName" value="Sridhar P"></parameter>
+	<parameter name="FlightClass" value="First Clas"></parameter>
+	<parameter name="Tickets" value="5"></parameter>
+		<classes>
+			<class name="TestCases.AppTest"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Flight Reservation App TestCases]">
+  <test thread-count="5" name="Search and Select Airline TestCase(failed)">
+    <parameter name="date" value="06/25/2025"/>
+    <parameter name="UserName" value="interiautest@gmail.com"/>
+    <parameter name="from" value="Hyderabad"/>
+    <parameter name="to" value="Kolkatha"/>
+    <parameter name="airlineName" value="Prasad Airlines"/>
+    <parameter name="Password" value="Dsop@123"/>
+    <classes>
+      <class name="TestCases.AppTest">
+        <methods>
+          <include name="Login"/>
+          <include name="closeApp"/>
+          <include name="launchApp"/>
+          <include name="searchAndSelectAirline" invocation-numbers="0"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- TestCases.AppTest -->
+    </classes>
+  </test> <!-- Search and Select Airline TestCase(failed) -->
+</suite> <!-- Failed suite [Flight Reservation App TestCases] -->

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Airline Present In FLight Search Results Table]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-10-27T18:57:26 IST" name="Flight Reservation App TestCases" finished-at="2024-10-27T18:57:34 IST" duration-ms="7288">
+    <groups>
+    </groups>
+    <test started-at="2024-10-27T18:57:26 IST" name="Search and Select Airline TestCase" finished-at="2024-10-27T18:57:34 IST" duration-ms="7288">
+      <class name="TestCases.AppTest">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:TestCases.AppTest@2e385cce]" started-at="2024-10-27T18:57:22 IST" name="launchApp" finished-at="2024-10-27T18:57:26 IST" duration-ms="4251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method is-config="true" signature="Login(java.lang.String,java.lang.String)[pri:0, instance:TestCases.AppTest@2e385cce]" started-at="2024-10-27T18:57:26 IST" name="Login" finished-at="2024-10-27T18:57:28 IST" duration-ms="2034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[interiautest@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Dsop@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="bookFlightTicket(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:TestCases.AppTest@2e385cce]" started-at="2024-10-27T18:57:28 IST" name="bookFlightTicket" finished-at="2024-10-27T18:57:33 IST" duration-ms="4482" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[06/25/2025]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Kolkatha]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Soft Airlines]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Sridhar P]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[First Clas]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Airline Present In FLight Search Results Table]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- bookFlightTicket -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestCases.AppTest@2e385cce]" started-at="2024-10-27T18:57:33 IST" name="Logout" finished-at="2024-10-27T18:57:34 IST" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="closeApp()[pri:0, instance:TestCases.AppTest@2e385cce]" started-at="2024-10-27T18:57:34 IST" name="closeApp" finished-at="2024-10-27T18:57:34 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- TestCases.AppTest -->
+    </test> <!-- Search and Select Airline TestCase -->
+  </suite> <!-- Flight Reservation App TestCases -->
+</testng-results>
